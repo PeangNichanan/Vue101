@@ -91,7 +91,7 @@ export default {
                 id: this.form.id,
                 name: this.form.name,
                 name_jp : this.form.name_jp,
-                type: this.form.pokemon_types.split(",").map((item) => item.trim())
+                pokemon_types: this.form.pokemon_types.split(",").map((item) => item.trim())
                 
             }
             console.log(payload)
